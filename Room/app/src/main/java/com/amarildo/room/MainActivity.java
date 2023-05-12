@@ -45,5 +45,6 @@ public class MainActivity extends AppCompatActivity {
                     "Surname" + random.nextInt(10));
             userList.add(user);
         }
+        return userList;
     }
 }
